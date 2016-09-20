@@ -15,6 +15,7 @@
 		D7427BB51D90071A0021D7A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7427BB31D90071A0021D7A0 /* LaunchScreen.storyboard */; };
 		D7427BC01D90071A0021D7A0 /* ZCJHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7427BBF1D90071A0021D7A0 /* ZCJHUDTests.m */; };
 		D7427BCB1D90071A0021D7A0 /* ZCJHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7427BCA1D90071A0021D7A0 /* ZCJHUDUITests.m */; };
+		D7427BDB1D9007410021D7A0 /* ZCJHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D7427BDA1D9007410021D7A0 /* ZCJHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D7427BC61D90071A0021D7A0 /* ZCJHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCJHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7427BCA1D90071A0021D7A0 /* ZCJHUDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCJHUDUITests.m; sourceTree = "<group>"; };
 		D7427BCC1D90071A0021D7A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7427BD91D9007410021D7A0 /* ZCJHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCJHUD.h; sourceTree = "<group>"; };
+		D7427BDA1D9007410021D7A0 /* ZCJHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCJHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		D7427BA41D90071A0021D7A0 /* ZCJHUD */ = {
 			isa = PBXGroup;
 			children = (
+				D7427BD81D90072D0021D7A0 /* ZCJHUD */,
 				D7427BA81D90071A0021D7A0 /* AppDelegate.h */,
 				D7427BA91D90071A0021D7A0 /* AppDelegate.m */,
 				D7427BAB1D90071A0021D7A0 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				D7427BCC1D90071A0021D7A0 /* Info.plist */,
 			);
 			path = ZCJHUDUITests;
+			sourceTree = "<group>";
+		};
+		D7427BD81D90072D0021D7A0 /* ZCJHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D7427BD91D9007410021D7A0 /* ZCJHUD.h */,
+				D7427BDA1D9007410021D7A0 /* ZCJHUD.m */,
+			);
+			name = ZCJHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +220,7 @@
 				TargetAttributes = {
 					D7427BA11D90071A0021D7A0 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3YA54AB2B7;
 						ProvisioningStyle = Automatic;
 					};
 					D7427BBA1D90071A0021D7A0 = {
@@ -276,6 +290,7 @@
 				D7427BAD1D90071A0021D7A0 /* ViewController.m in Sources */,
 				D7427BAA1D90071A0021D7A0 /* AppDelegate.m in Sources */,
 				D7427BA71D90071A0021D7A0 /* main.m in Sources */,
+				D7427BDB1D9007410021D7A0 /* ZCJHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3YA54AB2B7;
 				INFOPLIST_FILE = ZCJHUD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zcj.ZCJHUD;
@@ -433,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3YA54AB2B7;
 				INFOPLIST_FILE = ZCJHUD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zcj.ZCJHUD;
